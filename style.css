@@ -172,4 +172,10 @@ footer{
   .carousel-caption {
     font-size: 16px !important;
   }
+  .quote{
+    font-size: 16px !important;
+  }
+  .name{
+    font-size: 18px;
+  }
 }
