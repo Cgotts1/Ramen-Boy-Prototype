@@ -155,6 +155,7 @@ footer{
   .page-links{
     margin-top: 0;
     margin-right: 10px;
+    margin-left: -15px;
   }
 
   li{
