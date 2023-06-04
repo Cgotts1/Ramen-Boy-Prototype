@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Playfair:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=New+Rocker&family=Playfair:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Nerko+One&family=New+Rocker&family=Playfair:wght@300&display=swap");
+html,
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  height: 100vh;
+  /* overflow-x: hidden; */
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.a-tag{
+  text-decoration: none;
+}
+
+#logo {
+  height: 150px;
+  width: 250px;
+}
+
+.page-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 60px;
+  margin-right: 60px;
+  color: white;
+  
+}
+
+li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  cursor: pointer;
+  transition: color 200ms;
+  
+}
+
+li:hover {
+  color: rgb(168, 0, 0);
+}
+
+span {
+  font-size: 21px;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  background-image: url("images/dish1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ol{
+color: black;
+}
+
+.dish1 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  background-image: url("images/chopsticks.jpg");
+  filter: grayscale(0.6);
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+
+
+.business-hours {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.774);
+  color: rgb(0, 0, 0);
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  font-family: "New Rocker", cursive;
+
+}
+
+.category{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.hours {
+  color: #000000;
+}
+
+.c-image {
+  height: 400px;
+}
+
+.over-lay {
+  font-family: "Akronim", cursive;
+  font-family: "New Rocker", cursive;
+  /* font-family: fantasy; */
+  font-weight: 100;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.437);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  /* text-shadow: red 0px -2px; */
+}
+
+.copy-right{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+footer{
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  nav{
+    justify-content: center;
+  }
+
+  .page-links{
+    margin-top: 0;
+    margin-right: 10px;
+  }
+
+  li{
+    position: sticky;
+  }
+
+
+}
