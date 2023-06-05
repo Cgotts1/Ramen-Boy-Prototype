@@ -275,6 +275,7 @@ footer{
     left: 0;
     z-index: 6;
     margin: 12px;
+    margin-right: 40px;
     font-size: 26px;
     color: rgb(30, 193, 98);
     /* margin-top: 40px; */
