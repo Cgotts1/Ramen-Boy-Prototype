@@ -142,6 +142,7 @@ main {
 
 .c-image {
   height: 400px;
+  object-fit:cover;
 }
 
 .over-lay {
