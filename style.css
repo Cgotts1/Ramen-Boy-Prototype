@@ -6,8 +6,9 @@ html,
 body {
   background-color: rgb(0, 0, 0);
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow-x: hidden; */
+  background-color: black;
 }
 
 nav {
@@ -154,7 +155,7 @@ main {
 }
 
 footer{
-
+/* height: 100%; */
 }
 
 .phone {
@@ -164,6 +165,7 @@ footer{
   margin: 10px;
   font-size: 26px;
   color: rgb(30, 193, 98);
+  transition: color 300ms;
 }
 
 .facebook {
@@ -174,6 +176,8 @@ footer{
   margin-right: 60px;
   font-size: 26px;
   color: rgb(106, 149, 235);
+  transition: color 300ms;
+
   /* border: solid; */
 }
 
@@ -185,6 +189,8 @@ footer{
   margin-right: 110px;
   font-size: 26px;
   color: rgb(255, 152, 210);
+  transition: color 300ms;
+
 }
 
 .phone:hover, .facebook:hover, .instagram:hover{
@@ -221,4 +227,43 @@ footer{
   .name{
     font-size: 18px;
   }
+}
+
+
+@media (max-width: 555px) {
+  .phone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    margin: 10px;
+    font-size: 26px;
+    color: rgb(30, 193, 98);
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  
+  .facebook {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 12px;
+    margin-top: 60px;
+    margin-right: 10px;
+    font-size: 26px;
+    color: rgb(106, 149, 235);
+    z-index: 6;
+  }
+  
+  .instagram {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* margin: 12px; */
+    margin-right: 10px;
+    font-size: 26px;
+    color: rgb(255, 152, 210);
+    z-index: 4;
+  }
+  
 }
