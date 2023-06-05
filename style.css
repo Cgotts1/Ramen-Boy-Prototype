@@ -98,8 +98,10 @@ main {
   background-size: cover;
   padding: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 
@@ -114,7 +116,8 @@ main {
   width: max-content;
   padding: 10px;
   border-radius: 10px;
-  width: 300px;
+  /* width: 300px; */
+  height: max-content;
   font-family: "New Rocker", cursive;
 
 }
@@ -159,6 +162,12 @@ main {
   background-color: rgb(0, 0, 0);
 }
 
+.map{
+  /* width: 400px;
+  height: 400px; */
+  border-radius: 10px;
+}
+
 footer{
 /* height: 100%; */
 }
@@ -182,9 +191,12 @@ footer{
   font-size: 26px;
   color: rgb(106, 149, 235);
   transition: color 300ms;
+  /* background-color: rgb(255, 255, 255);
+  border-radius: 20px; */
 
   /* border: solid; */
 }
+
 
 .instagram {
   position: fixed;
@@ -193,8 +205,11 @@ footer{
   margin: 12px;
   margin-right: 110px;
   font-size: 26px;
-  color: rgb(255, 152, 210);
+  color: rgb(255, 0, 144);
   transition: color 300ms;
+  /* background-color: rgb(255, 255, 255);
+  border-radius: 10px; */
+
 
 }
 
@@ -235,7 +250,7 @@ footer{
 }
 
 
-@media (max-width: 555px) {
+@media (max-width: 538px) {
   .phone {
     position: fixed;
     top: 0;
