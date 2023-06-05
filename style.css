@@ -186,6 +186,11 @@ footer{
   transition: color 300ms;
 }
 
+.phone-color{
+  color: rgb(30, 193, 98);
+  transition: color 300ms;
+}
+
 .facebook {
   position: fixed;
   bottom: 0;
@@ -231,8 +236,13 @@ footer{
   cursor: pointer;
 }
 
-.phone:hover, .facebook:hover, .instagram:hover, .yelp:hover{
-  color: rgb(143, 0, 0);
+.yelp-color{
+  color: rgb(234, 16, 0);
+  transition: color 300ms;
+}
+
+.phone-color:hover, .facebook:hover, .instagram:hover, .yelp-color:hover{
+  color: rgb(177, 0, 0);
 }
 
 
@@ -275,7 +285,7 @@ footer{
     left: 0;
     z-index: 6;
     margin: 12px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     font-size: 26px;
     color: rgb(30, 193, 98);
     /* margin-top: 40px; */
