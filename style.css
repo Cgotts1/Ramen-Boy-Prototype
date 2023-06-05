@@ -217,7 +217,21 @@ footer{
 
 }
 
-.phone:hover, .facebook:hover, .instagram:hover{
+.yelp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 150px;
+  font-size: 26px;
+  color: rgb(234, 16, 0);
+  transition: color 300ms;
+  /* background-color: rgb(255, 255, 255);
+  border-radius: 10px; */
+  cursor: pointer;
+}
+
+.phone:hover, .facebook:hover, .instagram:hover, .yelp:hover{
   color: rgb(143, 0, 0);
 }
 
@@ -260,11 +274,11 @@ footer{
     top: 0;
     left: 0;
     z-index: 6;
-    margin: 10px;
+    margin: 12px;
     font-size: 26px;
     color: rgb(30, 193, 98);
-    margin-top: 40px;
-    margin-left: 30px;
+    /* margin-top: 40px; */
+    /* margin-left: 30px; */
     width: min-content;
   }
   
@@ -290,6 +304,21 @@ footer{
     font-size: 26px;
     color: rgb(255, 152, 210);
     z-index: 4;
+  }
+
+  .yelp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    margin-top: 60px;
+    font-size: 26px;
+    color: rgb(234, 16, 0);
+    cursor: pointer;
+    z-index: 4;
+    width: min-content;
+
+
   }
   
 }
