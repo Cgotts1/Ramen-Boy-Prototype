@@ -241,6 +241,7 @@ footer{
     color: rgb(30, 193, 98);
     margin-top: 40px;
     margin-left: 30px;
+    width: min-content;
   }
   
   .facebook {
@@ -253,6 +254,7 @@ footer{
     font-size: 26px;
     color: rgb(106, 149, 235);
     z-index: 6;
+    
   }
   
   .instagram {
