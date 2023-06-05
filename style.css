@@ -25,10 +25,19 @@ nav {
   height: fit-content;
 }
 
+/* Initial styles for the logo */
 #logo {
-  height: 150px;
-  width: 250px;
+  width: 200px;
+  height: auto;
+  transition: width 0.3s ease-in-out; /* Add a transition effect */
 }
+
+/* Styles for the smaller logo */
+#logo.shrink {
+  width: 100px;
+}
+
+
 
 .page-links {
   display: flex;
@@ -181,17 +190,6 @@ footer{
 .phone:hover, .facebook:hover, .instagram:hover{
   color: rgb(255, 255, 255);
 }
-  /* Initial styles for the logo */
-  #logo {
-    width: 200px;
-    height: auto;
-    transition: width 0.3s ease-in-out; /* Add a transition effect */
-  }
-  
-  /* Styles for the smaller logo */
-  #logo.shrink {
-    width: 10px;
-  }
 
 
 
@@ -206,12 +204,6 @@ footer{
     margin-right: 10px;
     margin-left: -15px;
   }
-
-  li{
-    position: sticky;
-  }
-
-
 }
 .carousel-caption {
   font-size: 24px;
