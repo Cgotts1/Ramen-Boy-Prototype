@@ -15,10 +15,14 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  top:0;
+  position: sticky;
+  z-index: 3;
 }
 
 .a-tag{
   text-decoration: none;
+  height: fit-content;
 }
 
 #logo {
@@ -144,6 +148,51 @@ footer{
 
 }
 
+.phone {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 26px;
+  color: rgb(30, 193, 98);
+}
+
+.facebook {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 60px;
+  font-size: 26px;
+  color: rgb(106, 149, 235);
+  /* border: solid; */
+}
+
+.instagram {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 110px;
+  font-size: 26px;
+  color: rgb(255, 152, 210);
+}
+
+.phone:hover, .facebook:hover, .instagram:hover{
+  color: rgb(255, 255, 255);
+}
+  /* Initial styles for the logo */
+  #logo {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  /* Styles for the smaller logo */
+  #logo.shrink {
+    width: 10px;
+  }
+
 
 
 @media screen and (max-width: 700px) {
@@ -167,6 +216,8 @@ footer{
 .carousel-caption {
   font-size: 24px;
 }
+
+
 
 @media (max-width: 768px) {
   .carousel-caption {

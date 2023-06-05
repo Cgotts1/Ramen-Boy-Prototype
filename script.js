@@ -16,3 +16,20 @@
   }
 
   initMap();
+
+
+
+  // Get the logo element
+var logo = document.getElementById('logo');
+
+// Listen for scroll events
+window.addEventListener('scroll', function() {
+  // Check the scroll position
+  if (window.scrollY > 0) {
+    // Add the 'shrink' class to the logo
+    logo.classList.add('shrink');
+  } else {
+    // Remove the 'shrink' class from the logo
+    logo.classList.remove('shrink');
+  }
+});
