@@ -337,8 +337,10 @@ footer{
     cursor: pointer;
     z-index: 4;
     width: min-content;
-
-
+  }
+  .yelp-color {
+    z-index:4;
+    width: min-content;
   }
   
 }
