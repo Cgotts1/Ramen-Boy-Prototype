@@ -161,7 +161,7 @@ footer{
 }
 
 .phone {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
   right: 0;
   margin: 10px;
@@ -169,7 +169,19 @@ footer{
   color: rgb(30, 193, 98);
   transition: color 300ms;
   width: min-content;
-  height: max-content;
+  height: max-content; */
+}
+
+
+.phone{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 60px;
+  font-size: 26px;
+  color: rgb(106, 149, 235);
+  transition: color 300ms;
 }
 
 .phone-color{
@@ -195,7 +207,7 @@ footer{
   /* border: solid; */
 }
 
-.facebook2 {
+/* .facebook2 {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -204,11 +216,7 @@ footer{
   font-size: 26px;
   color: rgb(106, 149, 235);
   transition: color 300ms;
-  /* background-color: rgb(255, 255, 255);
-  border-radius: 20px; */
-
-  /* border: solid; */
-}
+} */
 
 
 .instagram {
@@ -220,13 +228,20 @@ footer{
   font-size: 26px;
   color: rgb(255, 0, 144);
   transition: color 300ms;
-  /* background-color: rgb(255, 255, 255);
-  border-radius: 10px; */
-
-
 }
 
-.yelp {
+.instagram2{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 110px;
+  font-size: 26px;
+  color: rgb(255, 0, 144);
+  transition: color 300ms;
+}
+
+/* .yelp {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -235,19 +250,17 @@ footer{
   font-size: 26px;
   color: rgb(234, 16, 0);
   transition: color 300ms;
-  /* background-color: rgb(255, 255, 255);
-  border-radius: 10px; */
   cursor: pointer;
   width: min-content;
   height: max-content;
-}
+} */
 
-.yelp-color{
+/* .yelp-color{
   color: rgb(234, 16, 0);
   transition: color 300ms;
   width: min-content;
 
-}
+} */
 
 .phone-color:hover, .facebook:hover, .instagram:hover, .yelp-color:hover{
   color: rgb(177, 0, 0);
@@ -311,7 +324,7 @@ footer{
     
   }
 
-  .facebook2 {
+  /* .facebook2 {
     position: fixed;
     top: 0;
     left: 0;
@@ -321,7 +334,18 @@ footer{
     font-size: 26px;
     color: rgb(106, 149, 235);
     z-index: 6;
-    
+  } */
+
+  .phone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgb(106, 149, 235);
+    z-index: 6;
   }
   
   .instagram {
@@ -334,7 +358,17 @@ footer{
     z-index: 4;
   }
 
-  .yelp {
+  .instagram2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgb(255, 152, 210);
+    z-index: 4;
+  }
+
+  /* .yelp {
     position: fixed;
     top: 0;
     left: 0;
@@ -345,10 +379,10 @@ footer{
     cursor: pointer;
     z-index: 4;
     width: min-content;
-  }
-  .yelp-color {
+  } */
+  /* .yelp-color {
     z-index:4;
     width: min-content;
-  }
+  } */
   
 }
