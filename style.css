@@ -339,8 +339,8 @@ footer{
 /* --------------Menu Page------------------- */
 
 .food-items{
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   gap: 20px;
   /* background-color: rgb(43, 43, 43); */
   /* background: linear-gradient(to bottom, #333, #333 50%, #eee 75%, #333 75%); */
