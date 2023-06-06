@@ -357,6 +357,8 @@ footer{
     font-size: 26px;
     color: rgb(106, 149, 235);
     z-index: 6;
+    width: min-content;
+height: min-content;
   }
   
   .instagram {
@@ -375,8 +377,10 @@ footer{
     left: 0;
     margin-left: 10px;
     font-size: 26px;
-    color: rgb(255, 152, 210);
+    color: rgb(30, 193, 98);
     z-index: 4;
+    width: min-content;
+height: min-content;
   }
 
   /* .phone{
