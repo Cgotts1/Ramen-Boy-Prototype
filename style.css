@@ -195,6 +195,21 @@ footer{
   /* border: solid; */
 }
 
+.facebook2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 60px;
+  font-size: 26px;
+  color: rgb(106, 149, 235);
+  transition: color 300ms;
+  /* background-color: rgb(255, 255, 255);
+  border-radius: 20px; */
+
+  /* border: solid; */
+}
+
 
 .instagram {
   position: fixed;
@@ -272,19 +287,16 @@ footer{
 
 
 @media (max-width: 538px) {
-  .phone {
+  /* .phone {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 6;
     margin: 12px;
-    /* margin-right: 40px; */
     font-size: 26px;
     color: rgb(30, 193, 98);
-    /* margin-top: 40px; */
-    /* margin-left: 30px; */
     width: min-content;
-  }
+  } */
   
   .facebook {
     position: fixed;
@@ -298,12 +310,24 @@ footer{
     z-index: 6;
     
   }
+
+  .facebook2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    margin-top: 60px;
+    margin-right: 10px;
+    font-size: 26px;
+    color: rgb(106, 149, 235);
+    z-index: 6;
+    
+  }
   
   .instagram {
     position: fixed;
     top: 0;
     right: 0;
-    /* margin: 12px; */
     margin-right: 10px;
     font-size: 26px;
     color: rgb(255, 152, 210);
