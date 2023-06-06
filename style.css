@@ -237,7 +237,7 @@ footer{
   margin: 12px;
   margin-right: 110px;
   font-size: 26px;
-  color: rgb(255, 0, 144);
+  color: rgb(30, 193, 98);
   transition: color 300ms;
 }
 
@@ -379,8 +379,8 @@ height: min-content;
     font-size: 26px;
     color: rgb(30, 193, 98);
     z-index: 4;
-    width: min-content;
-height: min-content;
+    /* width: min-content;
+height: min-content; */
   }
 
   /* .phone{
