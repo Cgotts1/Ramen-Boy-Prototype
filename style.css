@@ -311,16 +311,7 @@ footer{
 
 
 @media (max-width: 538px) {
-  /* .phone {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 6;
-    margin: 12px;
-    font-size: 26px;
-    color: rgb(30, 193, 98);
-    width: min-content;
-  } */
+
   
   .facebook {
     position: fixed;
@@ -335,18 +326,6 @@ footer{
     
   }
 
-  /* .facebook2 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 12px;
-    margin-top: 60px;
-    margin-right: 10px;
-    font-size: 26px;
-    color: rgb(106, 149, 235);
-    z-index: 6;
-  } */
-
   .yelp {
     position: fixed;
     top: 0;
@@ -358,7 +337,7 @@ footer{
     color: rgb(106, 149, 235);
     z-index: 6;
     width: min-content;
-height: min-content;
+    height: min-content;
   }
   
   .instagram {
@@ -379,35 +358,7 @@ height: min-content;
     font-size: 26px;
     color: rgb(30, 193, 98);
     z-index: 4;
-    /* width: min-content;
-height: min-content; */
+    width: min-content;
+    height: min-content; 
   }
-
-  /* .phone{
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin-left: 10px;
-    font-size: 26px;
-    color: rgb(255, 152, 210);
-    z-index: 4;
-  } */
-
-  /* .yelp {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 12px;
-    margin-top: 60px;
-    font-size: 26px;
-    color: rgb(234, 16, 0);
-    cursor: pointer;
-    z-index: 4;
-    width: min-content;
-  } */
-  /* .yelp-color {
-    z-index:4;
-    width: min-content;
-  } */
-  
 }
