@@ -230,18 +230,7 @@ footer{
   transition: color 300ms;
 }
 
-/* .instagram2{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 12px;
-  margin-right: 110px;
-  font-size: 26px;
-  color: rgb(255, 0, 144);
-  transition: color 300ms;
-} */
-
-.phone{
+.instagram2{
   position: fixed;
   bottom: 0;
   right: 0;
@@ -251,6 +240,17 @@ footer{
   color: rgb(255, 0, 144);
   transition: color 300ms;
 }
+
+/* .phone{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  margin-right: 110px;
+  font-size: 26px;
+  color: rgb(255, 0, 144);
+  transition: color 300ms;
+} */
 
 /* .yelp {
   position: fixed;
@@ -379,7 +379,7 @@ footer{
     z-index: 4;
   }
 
-  .phone{
+  /* .phone{
     position: fixed;
     top: 0;
     left: 0;
@@ -387,7 +387,7 @@ footer{
     font-size: 26px;
     color: rgb(255, 152, 210);
     z-index: 4;
-  }
+  } */
 
   /* .yelp {
     position: fixed;
