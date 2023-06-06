@@ -334,3 +334,60 @@ footer{
     height: 36px;
   }
 }
+
+
+/* --------------Menu Page------------------- */
+
+.food-items{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* background-color: rgb(43, 43, 43); */
+  /* background: linear-gradient(to bottom, #333, #333 50%, #eee 75%, #333 75%); */
+  
+  /* background: linear-gradient( #000000, white, black, #880000); */
+  /* background: linear-gradient( white, black, white); */
+  flex-wrap: wrap;
+  /* border: solid black 5px; */
+  padding: 20px;
+}
+
+.bla{
+  /* position: absolute; */
+  /* z-index: 3; */
+  width: 300px;
+  height: 200px;
+  margin-top: 70px;
+  cursor: pointer;
+  border: solid 1px rgb(0, 0, 0);
+  transition: border 250ms;
+}
+
+.bla:hover{
+  border: solid 1px white;
+}
+
+.h2-ramen{
+  border-bottom: black solid;
+}
+
+
+.food-items-ramen{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* background-image: url('https://images.unsplash.com/photo-1588001291548-948f55922bfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbWVufGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgb(43, 43, 43); */
+  /* background: linear-gradient(to bottom, #333, #333 50%, #eee 75%, #333 75%); */
+  /* background: linear-gradient( #000000, white, black, #880000); */
+  flex-wrap: wrap;
+  /* border: solid black 5px; */
+  padding: 20px;
+  background: linear-gradient( white, black, white);
+
+}
+
+
