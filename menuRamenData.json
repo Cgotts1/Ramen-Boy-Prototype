@@ -1,6 +1,7 @@
 [
     {
-      "foodImage": "Gold Curry",
+      "foodImage": "images/dish1.jpg",
+      "foodName": "Gold Curry",
       "foodDescription": "Curry with Pork Chashu, Flavored Egg, Corn, Tomato, Green Onion, Red Ginger",
       "foodPrice":"$13.50"
     }
