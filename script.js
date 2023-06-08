@@ -35,7 +35,16 @@
 // });
 
 
+// Assuming you have a variable called "isOpen" that determines whether the sign should show "Open" or "Closed"
+const isOpen = true; // Change to false for "Closed" sign
 
+if (isOpen) {
+  document.getElementById("open").style.display = "block";
+  document.getElementById("closed").style.display = "none";
+} else {
+  document.getElementById("open").style.display = "none";
+  document.getElementById("closed").style.display = "block";
+}
 
 
 
