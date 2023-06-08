@@ -178,22 +178,21 @@ color: black;
 @media screen and (max-width: 635px) {
 
   .welcome-message{
-    font-size: 50px;
+    font-size: 8vw;
   }
 
   .ramen-png{
-    height: 350px;
-    width: 430px;
-    /* width: auto; */
+    height: 320px;
+    width: 360px;
     padding-left: 0;
-    /* margin: auto; */
-    margin-top: -90px;
+    margin-top: -81px;
+   
   }
 
   .section-one-h1{
     font-weight: 600;
-  font-size: 45px;
-  /* height: auto; */
+  font-size: 7vw;
+  height: auto;
   }
 }
 
@@ -217,11 +216,11 @@ color: black;
   color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 10px;
-  width: 370px;
+  width: 330px;
   height: min-content;
   font-family: "New Rocker", cursive;
   border: solid 1px rgb(135, 135, 135);
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .category{
@@ -262,8 +261,8 @@ color: black;
 
 .map{
   border-radius: 10px;
-  width: 370px;
-  height: 370px;
+  width: 330px;
+  height: 350px;
   background-color: rgb(96, 96, 96);
   padding: 1px;
 }
