@@ -184,16 +184,16 @@ color: black;
   .ramen-png{
     height: 350px;
     width: 430px;
-    width: auto;
+    /* width: auto; */
     padding-left: 0;
-    margin: auto;
+    /* margin: auto; */
     margin-top: -90px;
   }
 
   .section-one-h1{
     font-weight: 600;
   font-size: 45px;
-  height: auto;
+  /* height: auto; */
   }
 }
 
