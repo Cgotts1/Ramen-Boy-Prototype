@@ -287,7 +287,18 @@ background: linear-gradient( white, black);
 
 
 footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 4;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 /* height: 100%; */
+background-color: black;
+/* padding: 230px; */
+height: 59px;
+z-index: 1;
 }
 
 
@@ -300,6 +311,7 @@ footer{
   font-size: 26px;
   color: rgb(106, 149, 235);
   transition: color 300ms;
+  z-index: 3;
 }
 
 .phone-color{
@@ -318,6 +330,8 @@ footer{
   font-size: 26px;
   color: rgb(106, 149, 235);
   transition: color 300ms;
+  z-index: 3;
+
 }
 
 .instagram {
@@ -329,6 +343,8 @@ footer{
   font-size: 26px;
   color: rgb(255, 0, 144);
   transition: color 300ms;
+  z-index: 3;
+
 }
 
 .instagram2{
@@ -340,6 +356,8 @@ footer{
   font-size: 26px;
   color: rgb(30, 193, 98);
   transition: color 300ms;
+  z-index: 3;
+
 }
 
 
@@ -578,12 +596,43 @@ footer{
 
 }
 
-.column{
- 
-  display: flex;
-  justify-content: center;
+
+.image-container {
+  position: relative;
 }
 
+.modal-trigger {
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#modal-image {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 10% auto;
+}
+
+
+.close {
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
 
 
 
@@ -610,5 +659,13 @@ footer{
   height: 20px;
   z-index: -1;
 }
+
+
+
+
+
+
+
+
 
 
