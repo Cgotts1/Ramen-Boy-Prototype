@@ -24,37 +24,60 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// Assuming you have a variable called "isOpen" that determines whether the sign should show "Open" or "Closed"
-const isOpen = true; // Change to false for "Closed" sign
-
-if (isOpen) {
-  document.getElementById("open").style.display = "block";
-  document.getElementById("closed").style.display = "none";
-} else {
-  document.getElementById("open").style.display = "none";
-  document.getElementById("closed").style.display = "block";
-}
 
 
-
-document.addEventListener("DOMContentLoaded", function() {
-  const scrollLinks = document.querySelectorAll(".scroll-link");
+// document.addEventListener('DOMContentLoaded', function() {
+//   var scrollLinks = document.querySelectorAll('.scroll-link');
   
-  for (const link of scrollLinks) {
-    link.addEventListener("click", smoothScroll);
+//   for (var i = 0; i < scrollLinks.length; i++) {
+//     scrollLinks[i].addEventListener('click', scrollToTarget);
+//   }
+  
+//   function scrollToTarget(event) {
+//     event.preventDefault();
+    
+//     var targetId = this.getAttribute('href');
+//     var targetElement = document.querySelector(targetId);
+    
+//     if (targetElement) {
+//       var offset = 160; // Offset in pixels
+      
+//       var targetOffset = targetElement.offsetTop - offset;
+//       window.scrollTo({
+//         top: targetOffset,
+//         behavior: 'smooth'
+//       });
+//     }
+//   }
+// });
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollLinks = document.querySelectorAll('a[href^="#"]');
+  
+  for (var i = 0; i < scrollLinks.length; i++) {
+    scrollLinks[i].addEventListener('click', scrollToTarget);
   }
   
-  function smoothScroll(e) {
-    e.preventDefault();
-    const targetId = this.getAttribute("href");
-    const targetElement = document.querySelector(targetId);
+  function scrollToTarget(event) {
+    event.preventDefault();
+    
+    var targetId = this.getAttribute('href');
+    var targetElement = document.querySelector(targetId);
     
     if (targetElement) {
-      const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
-      const offsetPosition = targetPosition - 20; // 20px above the target element
+      var offset = 160; // Offset in pixels
+      
+      var targetOffset = targetElement.offsetTop - offset;
       window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
+        top: targetOffset,
+        behavior: 'smooth'
       });
     }
   }
