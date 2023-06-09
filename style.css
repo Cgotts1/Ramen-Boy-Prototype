@@ -95,6 +95,8 @@ color: black;
 main{
   background: linear-gradient( white, black, white);
 /* padding: 20px; */
+/* overflow-x: hidden; */
+
 }
 
 #home-nav {
@@ -245,7 +247,7 @@ main{
 background-position: center;
 background-size: cover;
 background: linear-gradient( white, black);
-
+overflow-x: hidden;
 }
 
 .business-hours-container{
@@ -631,6 +633,7 @@ z-index: 1;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   border: solid;
+  z-index: 1;
 }
 
 
