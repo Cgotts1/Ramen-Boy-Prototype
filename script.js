@@ -82,3 +82,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var fadeElements = document.querySelectorAll('.fade-in-element-scroll');
+  
+  function checkFadeElements() {
+    for (var i = 0; i < fadeElements.length; i++) {
+      var fadeElement = fadeElements[i];
+      var elementOffset = fadeElement.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+      
+      if (elementOffset < windowHeight * 0.8) {
+        fadeElement.classList.add('is-visible');
+      }
+    }
+  }
+  
+  window.addEventListener('scroll', checkFadeElements);
+  checkFadeElements();
+});
