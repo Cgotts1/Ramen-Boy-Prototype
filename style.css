@@ -8,7 +8,7 @@
 html,
 body {
   margin: 0;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
 }
 
 .fade-in-element-scroll {
@@ -118,7 +118,8 @@ color: black;
 }
 
 main{
-  background: linear-gradient( white, black, white);
+  /* background: linear-gradient( white, black, white); */
+  background: linear-gradient( white,rgb(0, 0, 0));
 /* padding: 10px; */
 
 
@@ -173,7 +174,11 @@ main{
   }
 }
 
-
+.h2-welcome{
+  margin: 0px 20px;
+  background-color: white;
+  border-bottom:solid black ;
+}
 
 .welcome-message{
   /* margin-left: 20px;
@@ -295,7 +300,7 @@ main{
   /* background-image: url('images/chopsticks.jpg'); */
 background-position: center;
 background-size: cover;
-background: linear-gradient( white, black);
+/* background: linear-gradient( white, black); */
 margin-bottom: 58px;
 }
 
@@ -306,6 +311,10 @@ margin-bottom: 58px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   opacity: 0.9;
+}
+
+.container{
+  text-decoration: underline;
 }
 
 .h2-business-hours{
@@ -324,7 +333,7 @@ margin-bottom: 58px;
   width: 330px;
   height: min-content;
   /* font-family: "New Rocker", cursive; */
-  font-family: 'Kaushan Script';
+  /* font-family: 'Kaushan Script'; */
   font-size: 18px;
   margin-top: -10px;
 }
@@ -357,7 +366,7 @@ margin-bottom: 58px;
   z-index: 1;
   background-color: rgb(182, 0, 0);
   height: fit-content;
-  height: 389px;
+  height: 380px;
   border-radius: 10px;
 }
 
@@ -686,8 +695,7 @@ z-index: 1;
   justify-content: center;
   flex-direction: column;
   background-color: black;
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
+  border-radius: 10px;
   border: solid;
   z-index: 1;
 }
@@ -766,12 +774,12 @@ img.modal-trigger{
   .gallery{
     max-width: 330px;
     justify-content: center;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     overflow-x: scroll;
   }
   img.modal-trigger{
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 160px;
   }
 }
 
