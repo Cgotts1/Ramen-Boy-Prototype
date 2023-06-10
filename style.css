@@ -121,7 +121,8 @@ color: black;
 
 main{
   /* background: linear-gradient( white, black, white); */
-  background: linear-gradient( white,rgb(0, 0, 0));
+  /* background: linear-gradient( white,rgb(0, 0, 0)); */
+  background: linear-gradient( white,rgb(227, 227, 227));
 /* padding: 10px; */
 
 
@@ -197,6 +198,7 @@ main{
   /* border-top: 1px black solid; */
   /* background-color: rgba(255, 255, 255, 0.777); */
   color: black;
+  text-decoration: overline 1px;
 }
 
 .section-one{
