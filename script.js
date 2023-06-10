@@ -26,32 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   var scrollLinks = document.querySelectorAll('.scroll-link');
-  
-//   for (var i = 0; i < scrollLinks.length; i++) {
-//     scrollLinks[i].addEventListener('click', scrollToTarget);
-//   }
-  
-//   function scrollToTarget(event) {
-//     event.preventDefault();
-    
-//     var targetId = this.getAttribute('href');
-//     var targetElement = document.querySelector(targetId);
-    
-//     if (targetElement) {
-//       var offset = 160; // Offset in pixels
-      
-//       var targetOffset = targetElement.offsetTop - offset;
-//       window.scrollTo({
-//         top: targetOffset,
-//         behavior: 'smooth'
-//       });
-//     }
-//   }
-// });
-
-
 
 
 
@@ -104,9 +78,30 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
 
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+
+
+// Show or hide the button based on the scroll position
+window.onscroll = function() {
+  showScrollButton();
+};
+
+
+function showScrollButton() {
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.classList.add("show");
+  } else {
+    scrollToTopBtn.classList.remove("show");
+  }
+}
+
+// Scroll to the top when the button is clicked
+document.getElementById("scrollToTopBtn").onclick = function() {
+  scrollToTop();
+};
+
+function scrollToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
