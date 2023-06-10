@@ -102,3 +102,11 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', checkFadeElements);
   checkFadeElements();
 });
+
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

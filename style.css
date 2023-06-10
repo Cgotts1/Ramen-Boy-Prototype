@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Nerko+One&family=New+Rocker&family=Pathway+Gothic+One&family=Playfair:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 html,
 body {
   margin: 0;
@@ -21,7 +22,7 @@ body {
 
 .fade-in-element {
   opacity: 0;
-  animation: fade-in 1s ease-in forwards;
+  animation: fade-in 0.7s ease-in forwards;
 }
 
 @keyframes fade-in {
@@ -104,6 +105,7 @@ figure {
   width: 100%;
   font-family: "New Rocker", cursive;
   font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
 
 }
 
@@ -341,6 +343,7 @@ margin-bottom: 58px;
 .category{
   text-align: center;
   text-decoration: underline;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .container{
@@ -430,6 +433,10 @@ z-index: 1;
   z-index: 3;
 }
 
+.yelp-color{
+  transition: color 300ms;
+}
+
 .phone-color{
   color: rgb(30, 193, 98);
   transition: color 300ms;
@@ -457,7 +464,7 @@ z-index: 1;
   margin: 12px;
   margin-right: 110px;
   font-size: 26px;
-  color: rgb(255, 0, 144);
+  color: rgb(255, 152, 210);
   transition: color 300ms;
   z-index: 3;
 
@@ -514,6 +521,8 @@ z-index: 1;
 }
 
 
+/* I incresed top-margin by 10px for all and by 20px for insta and phone */
+
 @media (max-width: 538px) {
 
   
@@ -522,15 +531,17 @@ z-index: 1;
     top: 0;
     right: 0;
     margin: 12px;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-right: 10px;
     font-size: 26px;
     color: rgb(106, 149, 235);
     z-index: 6;
+    width: 30px;
+    height: 30px;
     
   }
 
-  .yelp {
+  /* .yelp {
     position: fixed;
     top: 0;
     left: 0;
@@ -540,8 +551,26 @@ z-index: 1;
     font-size: 26px;
     color: rgb(106, 149, 235);
     z-index: 6;
-    width: min-content;
-    height: min-content;
+    width: 30px;
+    height: 30px;
+  } */
+  /* width: min-content;
+  height: min-content; */
+
+  .yelp-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 26px;
+    color:#c41200;
+    z-index: 6;
+    /* width: min-content;
+    height: min-content; */
+    width: 30px;
+    height: 30px;
   }
   
   .instagram {
@@ -549,9 +578,12 @@ z-index: 1;
     top: 0;
     right: 0;
     margin-right: 10px;
+    margin-top: 20px;
     font-size: 26px;
     color: rgb(255, 152, 210);
     z-index: 4;
+    width: 30px;
+    height: 30px;
   }
 
   .instagram2{
@@ -559,13 +591,13 @@ z-index: 1;
     top: 0;
     left: 0;
     margin-left: 10px;
+    margin-top: 20px;
+
     font-size: 26px;
     color: rgb(30, 193, 98);
     z-index: 4;
-    /* width: min-content;
-    height: min-content;  */
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -764,13 +796,28 @@ z-index: 1;
 }
 
 img.modal-trigger{
-  width: 200px;
+  width: 291px;
   height: 200px;
+  width: 199px;
+  height: 170px;
 }
 
 
 
 @media screen and (max-width: 720px) {
+  .gallery{
+    max-width: 330px;
+    justify-content: center;
+    /* padding: 0 10px; */
+    overflow-x: scroll;
+  }
+  img.modal-trigger{
+    width: 165px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .gallery{
     max-width: 330px;
     justify-content: center;
