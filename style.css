@@ -544,8 +544,8 @@ z-index: 1;
 
 
 
-@media screen and (max-width: 700px) {
-
+/* @media screen and (max-width: 700px) { */
+  @media screen and (max-width: 605px) {
   nav{
     justify-content: center;
   }
@@ -560,7 +560,11 @@ z-index: 1;
 .carousel-caption {
   font-size: 24px;
 }
-
+@media (max-width: 788px) {
+  footer{
+    align-items: flex-end;
+  }
+}
 
 @media (max-width: 768px) {
   .carousel-caption {
