@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
   var scrollLinks = document.querySelectorAll('a[href^="#"]');
   
